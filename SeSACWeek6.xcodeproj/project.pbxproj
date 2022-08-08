@@ -20,6 +20,8 @@
 		851AEA6828A090B3009E13C6 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 851AEA6728A090B3009E13C6 /* SwiftyJSON */; };
 		851AEA6B28A094A4009E13C6 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851AEA6A28A094A4009E13C6 /* EndPoint.swift */; };
 		851AEA6D28A09511009E13C6 /* URL+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851AEA6C28A09511009E13C6 /* URL+Extention.swift */; };
+		851AEA6F28A0A791009E13C6 /* KakaoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851AEA6E28A0A791009E13C6 /* KakaoAPIManager.swift */; };
+		851AEA7128A0AC00009E13C6 /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851AEA7028A0AC00009E13C6 /* ClosureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		851AEA5E28A09080009E13C6 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 		851AEA6A28A094A4009E13C6 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		851AEA6C28A09511009E13C6 /* URL+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extention.swift"; sourceTree = "<group>"; };
+		851AEA6E28A0A791009E13C6 /* KakaoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAPIManager.swift; sourceTree = "<group>"; };
+		851AEA7028A0AC00009E13C6 /* ClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 				851AEA4928A08FDA009E13C6 /* SceneDelegate.swift */,
 				851AEA4B28A08FDA009E13C6 /* ViewController.swift */,
 				851AEA4D28A08FDA009E13C6 /* Main.storyboard */,
+				851AEA7028A0AC00009E13C6 /* ClosureViewController.swift */,
 				851AEA5028A08FDB009E13C6 /* Assets.xcassets */,
 				851AEA5228A08FDB009E13C6 /* LaunchScreen.storyboard */,
 				851AEA5528A08FDB009E13C6 /* Info.plist */,
@@ -97,6 +102,7 @@
 			children = (
 				851AEA6A28A094A4009E13C6 /* EndPoint.swift */,
 				851AEA6C28A09511009E13C6 /* URL+Extention.swift */,
+				851AEA6E28A0A791009E13C6 /* KakaoAPIManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -185,8 +191,10 @@
 			files = (
 				851AEA4C28A08FDA009E13C6 /* ViewController.swift in Sources */,
 				851AEA4828A08FDA009E13C6 /* AppDelegate.swift in Sources */,
+				851AEA7128A0AC00009E13C6 /* ClosureViewController.swift in Sources */,
 				851AEA6D28A09511009E13C6 /* URL+Extention.swift in Sources */,
 				851AEA6B28A094A4009E13C6 /* EndPoint.swift in Sources */,
+				851AEA6F28A0A791009E13C6 /* KakaoAPIManager.swift in Sources */,
 				851AEA5F28A09080009E13C6 /* APIKey.swift in Sources */,
 				851AEA4A28A08FDA009E13C6 /* SceneDelegate.swift in Sources */,
 			);
