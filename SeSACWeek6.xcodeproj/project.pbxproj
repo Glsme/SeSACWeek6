@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8511923128A5D6A400960D9B /* YPImagePicker in Frameworks */ = {isa = PBXBuildFile; productRef = 8511923028A5D6A400960D9B /* YPImagePicker */; };
+		8511923328A5DD1100960D9B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8511923228A5DD1100960D9B /* CameraViewController.swift */; };
 		851AEA4828A08FDA009E13C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851AEA4728A08FDA009E13C6 /* AppDelegate.swift */; };
 		851AEA4A28A08FDA009E13C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851AEA4928A08FDA009E13C6 /* SceneDelegate.swift */; };
 		851AEA4C28A08FDA009E13C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 851AEA4B28A08FDA009E13C6 /* ViewController.swift */; };
@@ -24,6 +26,8 @@
 		85243AB628A335CE0018DB14 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 85243AB528A335CE0018DB14 /* SwiftyJSON */; };
 		85243AB928A335D90018DB14 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 85243AB828A335D90018DB14 /* Kingfisher */; };
 		85243ABB28A343DA0018DB14 /* TMDBAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85243ABA28A343DA0018DB14 /* TMDBAPIManager.swift */; };
+		8537520828A631A200769D74 /* CameraPHPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8537520728A631A200769D74 /* CameraPHPickerViewController.swift */; };
+		855563CA28A4939900C1D4E2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855563C928A4939900C1D4E2 /* MapViewController.swift */; };
 		85777D8F28A1E033001A4BC1 /* SeSACButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85777D8E28A1E033001A4BC1 /* SeSACButton.swift */; };
 		85777D9128A1E60C001A4BC1 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85777D9028A1E60C001A4BC1 /* CardView.xib */; };
 		85777D9328A1E62B001A4BC1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85777D9228A1E62B001A4BC1 /* CardView.swift */; };
@@ -34,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8511923228A5DD1100960D9B /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		851AEA4428A08FDA009E13C6 /* SeSACWeek6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACWeek6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		851AEA4728A08FDA009E13C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		851AEA4928A08FDA009E13C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +55,8 @@
 		851AEA7028A0AC00009E13C6 /* ClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
 		85243AAF28A330710018DB14 /* ReusableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableProtocol.swift; sourceTree = "<group>"; };
 		85243ABA28A343DA0018DB14 /* TMDBAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBAPIManager.swift; sourceTree = "<group>"; };
+		8537520728A631A200769D74 /* CameraPHPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPHPickerViewController.swift; sourceTree = "<group>"; };
+		855563C928A4939900C1D4E2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		85777D8E28A1E033001A4BC1 /* SeSACButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACButton.swift; sourceTree = "<group>"; };
 		85777D9028A1E60C001A4BC1 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
 		85777D9228A1E62B001A4BC1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -67,6 +74,7 @@
 				85243AB928A335D90018DB14 /* Kingfisher in Frameworks */,
 				85243AB628A335CE0018DB14 /* SwiftyJSON in Frameworks */,
 				85243AB328A335AA0018DB14 /* Alamofire in Frameworks */,
+				8511923128A5D6A400960D9B /* YPImagePicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +110,9 @@
 				851AEA4B28A08FDA009E13C6 /* ViewController.swift */,
 				85777D9828A1F634001A4BC1 /* MainViewController.swift */,
 				851AEA4D28A08FDA009E13C6 /* Main.storyboard */,
+				8537520728A631A200769D74 /* CameraPHPickerViewController.swift */,
+				8511923228A5DD1100960D9B /* CameraViewController.swift */,
+				855563C928A4939900C1D4E2 /* MapViewController.swift */,
 				851AEA7028A0AC00009E13C6 /* ClosureViewController.swift */,
 				851AEA5028A08FDB009E13C6 /* Assets.xcassets */,
 				851AEA5228A08FDB009E13C6 /* LaunchScreen.storyboard */,
@@ -170,6 +181,7 @@
 				85243AB228A335AA0018DB14 /* Alamofire */,
 				85243AB528A335CE0018DB14 /* SwiftyJSON */,
 				85243AB828A335D90018DB14 /* Kingfisher */,
+				8511923028A5D6A400960D9B /* YPImagePicker */,
 			);
 			productName = SeSACWeek6;
 			productReference = 851AEA4428A08FDA009E13C6 /* SeSACWeek6.app */;
@@ -203,6 +215,7 @@
 				85243AB128A335AA0018DB14 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				85243AB428A335CE0018DB14 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				85243AB728A335D90018DB14 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				8511922F28A5D6A400960D9B /* XCRemoteSwiftPackageReference "YPImagePicker" */,
 			);
 			productRefGroup = 851AEA4528A08FDA009E13C6 /* Products */;
 			projectDirPath = "";
@@ -235,8 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				85777D9B28A1FC3B001A4BC1 /* MainTableViewCell.swift in Sources */,
+				8537520828A631A200769D74 /* CameraPHPickerViewController.swift in Sources */,
 				851AEA4C28A08FDA009E13C6 /* ViewController.swift in Sources */,
 				851AEA4828A08FDA009E13C6 /* AppDelegate.swift in Sources */,
+				8511923328A5DD1100960D9B /* CameraViewController.swift in Sources */,
 				851AEA7128A0AC00009E13C6 /* ClosureViewController.swift in Sources */,
 				85777D9928A1F634001A4BC1 /* MainViewController.swift in Sources */,
 				85777D9628A1F380001A4BC1 /* CardCollectionViewCell.swift in Sources */,
@@ -249,6 +264,7 @@
 				851AEA5F28A09080009E13C6 /* APIKey.swift in Sources */,
 				85243ABB28A343DA0018DB14 /* TMDBAPIManager.swift in Sources */,
 				851AEA4A28A08FDA009E13C6 /* SceneDelegate.swift in Sources */,
+				855563CA28A4939900C1D4E2 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +414,10 @@
 				DEVELOPMENT_TEAM = 3K4KWAG7KD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeSACWeek6/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 접근";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 현재 위치 기반으로 주변의 맛집 정보를 보여주기 위해서 권한이 필요합니다.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "동영상 접근";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "갤러리 접근";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -408,7 +428,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hano..SeSACWeek6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hano.SeSACWeek6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -426,6 +446,10 @@
 				DEVELOPMENT_TEAM = 3K4KWAG7KD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeSACWeek6/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 접근";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 현재 위치 기반으로 주변의 맛집 정보를 보여주기 위해서 권한이 필요합니다.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "동영상 접근";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "갤러리 접근";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -436,7 +460,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hano..SeSACWeek6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hano.SeSACWeek6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -468,6 +492,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		8511922F28A5D6A400960D9B /* XCRemoteSwiftPackageReference "YPImagePicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Yummypets/YPImagePicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 		85243AB128A335AA0018DB14 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -495,6 +527,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		8511923028A5D6A400960D9B /* YPImagePicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8511922F28A5D6A400960D9B /* XCRemoteSwiftPackageReference "YPImagePicker" */;
+			productName = YPImagePicker;
+		};
 		85243AB228A335AA0018DB14 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 85243AB128A335AA0018DB14 /* XCRemoteSwiftPackageReference "Alamofire" */;
